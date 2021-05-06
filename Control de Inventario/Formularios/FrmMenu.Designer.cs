@@ -51,7 +51,7 @@ namespace Control_de_Inventario
             this.btnUsuarios.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnUsuarios.ForeColor = System.Drawing.Color.Black;
-            this.btnUsuarios.Location = new System.Drawing.Point(15, 12);
+            this.btnUsuarios.Location = new System.Drawing.Point(15, 159);
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(168, 55);
             this.btnUsuarios.TabIndex = 20;
@@ -63,7 +63,7 @@ namespace Control_de_Inventario
             this.btnReportes.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnReportes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnReportes.ForeColor = System.Drawing.Color.Black;
-            this.btnReportes.Location = new System.Drawing.Point(15, 231);
+            this.btnReportes.Location = new System.Drawing.Point(363, 98);
             this.btnReportes.Name = "btnReportes";
             this.btnReportes.Size = new System.Drawing.Size(168, 55);
             this.btnReportes.TabIndex = 19;
@@ -75,7 +75,7 @@ namespace Control_de_Inventario
             this.btnTransacciones.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnTransacciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnTransacciones.ForeColor = System.Drawing.Color.Black;
-            this.btnTransacciones.Location = new System.Drawing.Point(15, 109);
+            this.btnTransacciones.Location = new System.Drawing.Point(189, 98);
             this.btnTransacciones.Name = "btnTransacciones";
             this.btnTransacciones.Size = new System.Drawing.Size(168, 55);
             this.btnTransacciones.TabIndex = 18;
@@ -88,7 +88,7 @@ namespace Control_de_Inventario
             this.btnInventario.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnInventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnInventario.ForeColor = System.Drawing.Color.Black;
-            this.btnInventario.Location = new System.Drawing.Point(15, 170);
+            this.btnInventario.Location = new System.Drawing.Point(15, 98);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Size = new System.Drawing.Size(168, 55);
             this.btnInventario.TabIndex = 17;
@@ -100,7 +100,7 @@ namespace Control_de_Inventario
             this.btnArticulos.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnArticulos.ForeColor = System.Drawing.Color.Black;
-            this.btnArticulos.Location = new System.Drawing.Point(189, 231);
+            this.btnArticulos.Location = new System.Drawing.Point(363, 37);
             this.btnArticulos.Name = "btnArticulos";
             this.btnArticulos.Size = new System.Drawing.Size(168, 55);
             this.btnArticulos.TabIndex = 16;
@@ -112,7 +112,7 @@ namespace Control_de_Inventario
             this.btnProveedores.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnProveedores.ForeColor = System.Drawing.Color.Black;
-            this.btnProveedores.Location = new System.Drawing.Point(189, 170);
+            this.btnProveedores.Location = new System.Drawing.Point(189, 37);
             this.btnProveedores.Name = "btnProveedores";
             this.btnProveedores.Size = new System.Drawing.Size(168, 55);
             this.btnProveedores.TabIndex = 15;
@@ -124,7 +124,7 @@ namespace Control_de_Inventario
             this.btnBodega.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnBodega.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnBodega.ForeColor = System.Drawing.Color.Black;
-            this.btnBodega.Location = new System.Drawing.Point(189, 109);
+            this.btnBodega.Location = new System.Drawing.Point(15, 37);
             this.btnBodega.Name = "btnBodega";
             this.btnBodega.Size = new System.Drawing.Size(168, 55);
             this.btnBodega.TabIndex = 14;
@@ -145,16 +145,17 @@ namespace Control_de_Inventario
             this.panel1.Controls.Add(this.btnInventario);
             this.panel1.Location = new System.Drawing.Point(12, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(375, 306);
+            this.panel1.Size = new System.Drawing.Size(763, 269);
             this.panel1.TabIndex = 21;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Control_de_Inventario.Properties.Resources.ProLac;
             this.pictureBox1.InitialImage = global::Control_de_Inventario.Properties.Resources.ProLac;
-            this.pictureBox1.Location = new System.Drawing.Point(243, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(559, 37);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(114, 75);
+            this.pictureBox1.Size = new System.Drawing.Size(187, 130);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
@@ -207,7 +208,7 @@ namespace Control_de_Inventario
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(401, 352);
+            this.ClientSize = new System.Drawing.Size(790, 318);
             this.Controls.Add(this.labelRol);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelUsuario);
