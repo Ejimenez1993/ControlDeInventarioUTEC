@@ -60,6 +60,10 @@ namespace Control_de_Inventario
             this.dateTransaccion = new System.Windows.Forms.DateTimePicker();
             this.txtIDUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.labelRol = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.labelUsuario = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panelTransaccion.SuspendLayout();
             this.panel3.SuspendLayout();
             this.grupBoxTipoTrasaccion.SuspendLayout();
@@ -85,7 +89,7 @@ namespace Control_de_Inventario
             this.panelTransaccion.Controls.Add(this.dateTransaccion);
             this.panelTransaccion.Controls.Add(this.txtIDUsuario);
             this.panelTransaccion.Controls.Add(this.label1);
-            this.panelTransaccion.Location = new System.Drawing.Point(12, 12);
+            this.panelTransaccion.Location = new System.Drawing.Point(12, 41);
             this.panelTransaccion.Name = "panelTransaccion";
             this.panelTransaccion.Size = new System.Drawing.Size(663, 384);
             this.panelTransaccion.TabIndex = 0;
@@ -389,12 +393,60 @@ namespace Control_de_Inventario
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Usuario";
             // 
+            // labelRol
+            // 
+            this.labelRol.AutoSize = true;
+            this.labelRol.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelRol.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.labelRol.Location = new System.Drawing.Point(286, 9);
+            this.labelRol.Name = "labelRol";
+            this.labelRol.Size = new System.Drawing.Size(36, 20);
+            this.labelRol.TabIndex = 39;
+            this.labelRol.Text = "Rol";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label6.Location = new System.Drawing.Point(239, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(41, 20);
+            this.label6.TabIndex = 38;
+            this.label6.Text = "Rol: ";
+            // 
+            // labelUsuario
+            // 
+            this.labelUsuario.AutoSize = true;
+            this.labelUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelUsuario.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.labelUsuario.Location = new System.Drawing.Point(92, 9);
+            this.labelUsuario.Name = "labelUsuario";
+            this.labelUsuario.Size = new System.Drawing.Size(71, 20);
+            this.labelUsuario.TabIndex = 37;
+            this.labelUsuario.Text = "Usuario";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label7.Location = new System.Drawing.Point(14, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(72, 20);
+            this.label7.TabIndex = 36;
+            this.label7.Text = "Usuario: ";
+            // 
             // FrmTransacciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(687, 408);
+            this.ClientSize = new System.Drawing.Size(687, 437);
+            this.Controls.Add(this.labelRol);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.labelUsuario);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.panelTransaccion);
             this.Name = "FrmTransacciones";
             this.Text = "PROLAC - Transacciones de Inventario";
@@ -407,6 +459,7 @@ namespace Control_de_Inventario
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -443,5 +496,9 @@ namespace Control_de_Inventario
         private System.Windows.Forms.Label labelNombreArticulo;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnGuardad;
+        private System.Windows.Forms.Label labelRol;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelUsuario;
+        private System.Windows.Forms.Label label7;
     }
 }

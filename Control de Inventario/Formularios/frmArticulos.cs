@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Control_de_Inventario.Formularios
 {
-    public partial class Reportes : Form
+    public partial class frmArticulos : Form
     {
-        public Reportes()
+        public frmArticulos()
         {
             InitializeComponent();
         }

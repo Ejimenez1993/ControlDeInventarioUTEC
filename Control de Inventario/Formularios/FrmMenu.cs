@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Control_de_Inventario
 {
-    public partial class FrmMenu : Form
+    public partial class frmMenu : Form
     {
-        public FrmMenu()
+        public frmMenu()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace Control_de_Inventario.Formularios
 {
-    partial class Reportes
+    partial class frmReportes
     {
         /// <summary>
         /// Required designer variable.

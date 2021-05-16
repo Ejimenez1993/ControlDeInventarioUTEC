@@ -1,7 +1,7 @@
 ﻿
 namespace Control_de_Inventario
 {
-    partial class FrmMenu
+    partial class frmMenu
     {
         /// <summary>
         ///  Required designer variable.

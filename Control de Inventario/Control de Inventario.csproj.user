@@ -13,13 +13,16 @@
     <Compile Update="Formularios\Formularios para busquedas\TablaReportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FrmMenu.cs">
+    <Compile Update="Formularios\frmArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FrmTransacciones.cs">
+    <Compile Update="Formularios\frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\Reportes.cs">
+    <Compile Update="Formularios\frmTransacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\frmReportes.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
